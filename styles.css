@@ -1,0 +1,48 @@
+body {
+      background-color: #0D0D0D;
+      color: #F2EFE8;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+    
+    .font-heading {
+      font-family: 'Oswald', sans-serif;
+    }
+    
+    .font-title {
+      font-family: 'Outfit', sans-serif;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0D0D0D;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #282C31;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #C8102E;
+    }
+
+    .glass-nav {
+      background: rgba(13, 13, 13, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    
+    .gradient-hero {
+      background: radial-gradient(circle at 80% 20%, rgba(200, 16, 46, 0.25) 0%, rgba(13, 13, 13, 1) 70%);
+    }
+
+    .badge-protein {
+      background: linear-gradient(135deg, #FF4D00 0%, #C8102E 100%);
+    }
+
+    .tab-active {
+      border-color: #C8102E;
+      color: #FFFFFF;
+      background-color: rgba(200, 16, 46, 0.15);
+    }
